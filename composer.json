@@ -1,0 +1,13 @@
+{
+    "name": "pader/phpinfo-cli-parser",
+    "description": "CLI phpinfo() Parser and Render.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pader",
+            "email": "ypnow@163.com"
+        }
+    ],
+    "require": {}
+}
