@@ -17,6 +17,10 @@ class Parser
      */
     public static function parse()
     {
+        if (PHP_SAPI != 'cli') {
+            throw new \RuntimeException('PhpInfoCliParser can only run in command line environment.');
+        }
+
         ob_start();
         phpinfo();
         $buf = ob_get_contents();
