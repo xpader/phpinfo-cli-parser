@@ -9,5 +9,10 @@
             "email": "ypnow@163.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PhpInfoCliParser\\": "./"
+        }
+    }
 }
